@@ -1,0 +1,89 @@
+{
+  "areas": [
+    {
+      "id": "A1",
+      "name": "Proposal lifecycle & access",
+      "score": 50.0,
+      "weight": 15
+    },
+    {
+      "id": "A2",
+      "name": "Voting & quorum rules",
+      "score": 66.67,
+      "weight": 20
+    },
+    {
+      "id": "A3",
+      "name": "Timelock & execution",
+      "score": 80.0,
+      "weight": 20
+    },
+    {
+      "id": "A4",
+      "name": "Treasury execution",
+      "score": 66.67,
+      "weight": 15
+    },
+    {
+      "id": "A5",
+      "name": "Emergency powers & guardians",
+      "score": 75.0,
+      "weight": 15
+    },
+    {
+      "id": "A6",
+      "name": "Transparency & verifiability",
+      "score": 70.0,
+      "weight": 15
+    }
+  ],
+  "checks": {
+    "A1-1": "pass",
+    "A1-2": "fail",
+    "A1-3": "partial",
+    "A1-4": "partial",
+    "A2-1": "fail",
+    "A2-2": "pass",
+    "A2-3": "pass",
+    "A2-4": "partial",
+    "A2-5": "pass",
+    "A2-6": "partial",
+    "A3-1": "pass",
+    "A3-2": "partial",
+    "A3-3": "pass",
+    "A3-4": "pass",
+    "A3-5": "partial",
+    "A4-1": "partial",
+    "A4-2": "pass",
+    "A4-3": "partial",
+    "A5-1": "pass",
+    "A5-2": "pass",
+    "A5-3": "partial",
+    "A5-4": "partial",
+    "A6-1": "partial",
+    "A6-2": "pass",
+    "A6-3": "pass",
+    "A6-4": "fail",
+    "A6-5": "pass"
+  },
+  "findings": [
+    "F-09",
+    "F-10",
+    "F-11",
+    "F-12",
+    "F-13",
+    "F-14",
+    "F-15",
+    "F-16",
+    "F-19",
+    "F-20",
+    "F-21",
+    "F-22",
+    "F-23",
+    "F-24"
+  ],
+  "framework_version": "1.1.0",
+  "protocol": "ENS DAO",
+  "score": 68.58,
+  "system": "OpenZeppelin Governor + TimelockController (ENSGovernor)"
+}
