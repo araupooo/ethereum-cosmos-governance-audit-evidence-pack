@@ -1,0 +1,5 @@
+audit.py: loaded rubric v1.1.0 (6 areas, 27 checks)
+audit.py: profile cosmos-hub: 27 checks, score 61.67, findings 10 (3 High, 5 Medium, 2 Low)
+audit.py: profile ens: 27 checks, score 68.58, findings 14 (0 High, 8 Medium, 6 Low)
+audit.py: total findings 24 (3 High, 13 Medium, 8 Low)
+audit.py: wrote 6 files

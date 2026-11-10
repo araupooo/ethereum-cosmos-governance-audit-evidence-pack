@@ -1,0 +1,85 @@
+{
+  "areas": [
+    {
+      "id": "A1",
+      "name": "Proposal lifecycle & access",
+      "score": 66.67,
+      "weight": 15
+    },
+    {
+      "id": "A2",
+      "name": "Voting & quorum rules",
+      "score": 58.33,
+      "weight": 20
+    },
+    {
+      "id": "A3",
+      "name": "Timelock & execution",
+      "score": 50.0,
+      "weight": 20
+    },
+    {
+      "id": "A4",
+      "name": "Treasury execution",
+      "score": 50.0,
+      "weight": 15
+    },
+    {
+      "id": "A5",
+      "name": "Emergency powers & guardians",
+      "score": 50.0,
+      "weight": 15
+    },
+    {
+      "id": "A6",
+      "name": "Transparency & verifiability",
+      "score": 100.0,
+      "weight": 15
+    }
+  ],
+  "checks": {
+    "A1-1": "pass",
+    "A1-2": "not_applicable",
+    "A1-3": "pass",
+    "A1-4": "fail",
+    "A2-1": "fail",
+    "A2-2": "pass",
+    "A2-3": "pass",
+    "A2-4": "partial",
+    "A2-5": "pass",
+    "A2-6": "fail",
+    "A3-1": "fail",
+    "A3-2": "fail",
+    "A3-3": "not_applicable",
+    "A3-4": "pass",
+    "A3-5": "pass",
+    "A4-1": "pass",
+    "A4-2": "fail",
+    "A4-3": "partial",
+    "A5-1": "partial",
+    "A5-2": "partial",
+    "A5-3": "not_applicable",
+    "A5-4": "not_applicable",
+    "A6-1": "pass",
+    "A6-2": "pass",
+    "A6-3": "pass",
+    "A6-4": "pass",
+    "A6-5": "pass"
+  },
+  "findings": [
+    "F-01",
+    "F-02",
+    "F-03",
+    "F-04",
+    "F-05",
+    "F-06",
+    "F-07",
+    "F-08",
+    "F-17",
+    "F-18"
+  ],
+  "framework_version": "1.1.0",
+  "protocol": "Cosmos Hub",
+  "score": 61.67,
+  "system": "Cosmos SDK x/gov on-chain governance (gaia)"
+}
